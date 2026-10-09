@@ -55,15 +55,16 @@ AutoCADUninstaller/
 - Windows 10/11 (x64)
 - [.NET 9 Runtime](https://dotnet.microsoft.com/download/dotnet/9.0)（精简版需要）
 
-### 方式一：精简版（单文件，320KB）
+### 方式一：提供 4 种打包形式
 
-下载 `AutoCADUninstaller.exe`，双击运行即可。需要电脑已安装 .NET 9 Runtime。
+| 形式 | 文件 | 说明 |
+|---|---|---|
+| 精简版 · 单文件 | `AutoCADUninstaller-Lite.exe` | 单个 exe，320 KB，需要电脑已安装 .NET 9 Runtime |
+| 精简版 · 压缩包 | `AutoCADUninstaller-Lite.zip` | 精简版文件夹压缩包，同样需要 .NET 9 Runtime |
+| 完整版 · 单文件 | `AutoCADUninstaller-Full.exe` | 单个 exe，108 MB，无需安装 .NET，运行时会在临时目录解压 |
+| 完整版 · 压缩包 | `AutoCADUninstaller-Full.zip` | 解压即用，无需安装 .NET，不产生临时残留 |
 
-### 方式二：完整版（自包含，107MB）
-
-下载整个 `publish_output` 文件夹，双击 `AutoCADUninstaller.exe` 运行。无需安装 .NET。
-
-### 方式三：从源码编译
+### 方式二：从源码编译
 
 ```bash
 git clone https://github.com/ran0814/AutoCADUninstaller.git
@@ -120,8 +121,8 @@ MIT License
 
 ## 版权声明
 
-Copyright (c) 2026 ran0814
+Copyright © 2026 ran0814
 
 本项目采用 MIT 许可证。完整许可证文本请见仓库根目录下的 [LICENSE](LICENSE) 文件。
 
-本打包版本基于 [ran0814/AutoCADUninstaller](https://github.com/ran0814/AutoCADUninstaller) 构建，未修改任何源代码，仅添加了Releases以便取用。
+本打包版本基于 [ran0814/AutoCADUninstaller](https://github.com/ran0814/AutoCADUninstaller) 构建，未修改任何源代码，仅添加了 Releases 以便取用以及更新了说明。
