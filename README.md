@@ -115,3 +115,13 @@ dotnet build -c Release
 ## 许可证
 
 MIT License
+
+---
+
+## 版权声明
+
+Copyright (c) 2026 ran0814
+
+本项目采用 MIT 许可证。完整许可证文本请见仓库根目录下的 [LICENSE](LICENSE) 文件。
+
+本打包版本基于 [ran0814/AutoCADUninstaller](https://github.com/ran0814/AutoCADUninstaller) 构建，未修改任何源代码，仅添加了自包含发布配置以便在未安装 .NET 的电脑上运行。
